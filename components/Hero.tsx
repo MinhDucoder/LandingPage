@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
           <div className="absolute inset-0 bg-rose-400/20 blur-[60px] rounded-full scale-75 group-hover:scale-100 transition-transform duration-1000"></div>
           <div className="relative bg-white p-2 rounded-[3.5rem] shadow-2xl border border-white">
             <img 
-              src="./assets/logo.jpg" 
+              src="/assets/logo.jpg" 
               alt="Healthmate GLOW" 
               className="w-full h-auto rounded-[3rem] object-cover"
             />

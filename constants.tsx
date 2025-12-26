@@ -1,5 +1,5 @@
 
-import { ProductPackage, Testimonial } from './types';
+import { ProductPackage, Testimonial } from '/types';
 
 export const PACKAGES: ProductPackage[] = [
   {
@@ -45,13 +45,13 @@ export const TESTIMONIALS: ShopeeTestimonial[] = [
     age: 26,
     rating: 5,
     comment: 'Omg the strawberry flavor is so good! It is like eating candy but it makes my skin glow. My nails are also getting stronger thanks to the Biotin. Fast shipping!',
-    image: './assets/fb.jpg',
+    image: '/assets/fb.jpg',
     variation: 'Value Pair (120 Tablets)',
     location: 'Manila',
     date: '2024-03-20',
     images: [
-      './assets/fb5.jpg',
-      './assets/fb.jpg'
+      '/assets/fb5.jpg',
+      '/assets/fb.jpg'
     ]
   },
   {
@@ -60,12 +60,12 @@ export const TESTIMONIALS: ShopeeTestimonial[] = [
     age: 31,
     rating: 5,
     comment: 'Legit Healthmate product. FR number verified. I love that it has Omega-3 too, I feel less tired during the day. Skin looks much brighter after 2 weeks.',
-    image: './assets/fb1.jpg',
+    image: '/assets/fb1.jpg',
     variation: 'Standard Bottle (60 Tablets)',
     location: 'Cebu City',
     date: '2024-03-18',
     images: [
-      './assets/fb3.jpg'
+      '/assets/fb3.jpg'
     ]
   },
   {
@@ -74,13 +74,13 @@ export const TESTIMONIALS: ShopeeTestimonial[] = [
     age: 29,
     rating: 5,
     comment: 'Perfect for someone like me who hates swallowing big pills. These chewables are tasty and effective. My hair fall has significantly reduced!',
-    image: './assets/fb2.jpg',
+    image: '/assets/fb2.jpg',
     variation: 'Value Pair (120 Tablets)',
     location: 'Quezon City',
     date: '2024-03-15',
     images: [
-      './assets/fb2.jpg',
-      './assets/fb1.png'
+      '/assets/fb2.jpg',
+      '/assets/fb1.png'
     ]
   }
 ];
